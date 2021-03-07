@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ title }}</h1>
-    <h2>Time To Make A Change</h2>
+    <h2></h2>
   </div>
 </template>
 
@@ -19,6 +19,7 @@ export default {
 <style>
 h1, h2 {
   font-weight: normal;
+  color: Black;
 }
 
 ul {

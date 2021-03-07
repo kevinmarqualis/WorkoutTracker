@@ -32,10 +32,10 @@ namespace AspNetCore
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlite(connectionString));
 
             services.AddControllers();
-            services.AddSwaggerGen(c =>
+            /*services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "AspNetCore", Version = "v1" });
-            });
+            });*/
 
             services.AddCors(options =>
             {
@@ -48,6 +48,8 @@ namespace AspNetCore
                         .WithOrigins("http://localhost:8080");
                 });
             });
+
+            IMvcBuilder mvcBuilder = services.AddMvc(option => option.EnableEndpointRouting = false);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

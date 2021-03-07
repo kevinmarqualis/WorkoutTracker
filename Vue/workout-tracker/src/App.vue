@@ -1,11 +1,11 @@
 <template>
   <div id="app">
     <header>
-      <b-navbar toggleable="md" type="dark" variant="dark">
+      <b-navbar toggleable="sm" type="dark">
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-navbar-brand to="/">Workout Tracker</b-navbar-brand>
         <b-collapse is-nav id="nav-collapse">
-          <b-navbar-nav>
+          <b-navbar-nav id="dropnav" >
             <b-nav-item to="/">Home</b-nav-item>
             <b-nav-item to="/workout-timer">Workout Timer</b-nav-item>
             <b-nav-item to="/weight-logger">Weight Log</b-nav-item>
@@ -25,9 +25,11 @@ export default {
 }
 </script>
 
+
 <style>
 body {
   margin: 0;
+  background: slategrey;
 }
 
 #app {
@@ -46,7 +48,7 @@ header {
   margin: 0;
   height: 56px;
   padding: 0 16px 0 24px;
-  background-color: #35495E;
+  background-color: #1b232c;
   color: #ffffff;
 }
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\WorkoutTracker\\AspNetCore\\AspNetCore.csproj": {}
+    "D:\\dev\\WorkoutTracker\\AspNetCore\\AspNetCore.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\WorkoutTracker\\AspNetCore\\AspNetCore.csproj": {
+    "D:\\dev\\WorkoutTracker\\AspNetCore\\AspNetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\WorkoutTracker\\AspNetCore\\AspNetCore.csproj",
+        "projectUniqueName": "D:\\dev\\WorkoutTracker\\AspNetCore\\AspNetCore.csproj",
         "projectName": "AspNetCore",
-        "projectPath": "C:\\Dev\\WorkoutTracker\\AspNetCore\\AspNetCore.csproj",
+        "projectPath": "D:\\dev\\WorkoutTracker\\AspNetCore\\AspNetCore.csproj",
         "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\WorkoutTracker\\AspNetCore\\obj\\",
+        "outputPath": "D:\\dev\\WorkoutTracker\\AspNetCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -67,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

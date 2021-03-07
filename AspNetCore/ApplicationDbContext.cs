@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
+
 namespace AspNetCore {
     public class ApplicationDbContext : DbContext
     {
@@ -7,5 +8,6 @@ namespace AspNetCore {
         {}
 
         public DbSet<WeightLog> WeightLogs {get; set;}
+
     }
 }
