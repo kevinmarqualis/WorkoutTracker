@@ -3,11 +3,13 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AspNetCore
 {
-    [Keyless]
+
     public class WeightLog
     {
-        public int Weight { get; set; }
+        public int Id { get; set; }
 
+        public int Weight { get; set; }
+        
         public DateTime Date { get; set; }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3DwiUsIhF1csMszzIZM9Y5fO0bZVDsAOk5gpLKBVD/25P1LIIwqS86ylylOImunzfevYL5Lkn+3h35hD/ZyGnQ==",
+  "dgSpecHash": "IAPOpO0ldfKmmicREpD4oYbU+35VpbPK2iX+gV6khtjgLgZb014kAdEOVFmY1wa4j2xXR9L1aksmj5AXv/sU9Q==",
   "success": true,
-  "projectFilePath": "D:\\dev\\WorkoutTracker\\AspNetCore\\AspNetCore.csproj",
+  "projectFilePath": "C:\\dev\\workouttracker\\aspnetcore\\AspNetCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kevin\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.3\\microsoft.data.sqlite.core.5.0.3.nupkg.sha512",
     "C:\\Users\\kevin\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",

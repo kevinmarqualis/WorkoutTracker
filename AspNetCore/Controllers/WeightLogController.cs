@@ -25,10 +25,10 @@ namespace AspNetCore.Controllers
             return await _dbContext.WeightLogs.ToListAsync();
         }
 
-        [HttpGet("{dateTime}")]
-        public async Task<ActionResult<WeightLog>> GetAction(DateTime dateTime)
+        [HttpGet("{id}")]
+        public async Task<ActionResult<WeightLog>> GetAction(int id)
         {
-            return await _dbContext.WeightLogs.FindAsync(dateTime);
+            return await _dbContext.WeightLogs.FindAsync(id);
         }
 
         [HttpPost]
@@ -38,10 +38,10 @@ namespace AspNetCore.Controllers
             await _dbContext.SaveChangesAsync();
         }
 
-        [HttpPut("{dateTime}")]
-        public async Task<ActionResult> Put(DateTime dateTime, WeightLog model)
+        [HttpPut("{id}")]
+        public async Task<ActionResult> Put(int id, WeightLog model)
         {
-            var exists = await _dbContext.WeightLogs.AnyAsync(f => f.Date == dateTime);
+            var exists = await _dbContext.WeightLogs.AnyAsync(f => f.Id == id);
             if (!exists)
             {
                 return NotFound();
@@ -54,10 +54,10 @@ namespace AspNetCore.Controllers
             return Ok();
         }
 
-        [HttpDelete("{dateTime}")]
-        public async Task<ActionResult> Delete(string dateTime)
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> Delete(int id)
         {
-            var entity = await _dbContext.WeightLogs.FindAsync(dateTime);
+            var entity = await _dbContext.WeightLogs.FindAsync(id);
 
             _dbContext.WeightLogs.Remove(entity);
             await _dbContext.SaveChangesAsync();
